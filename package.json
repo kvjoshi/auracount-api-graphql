@@ -1,0 +1,36 @@
+{
+  "name": "auracount-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvjoshi/auracount-api.git"
+  },
+  "author": "Karmavir Joshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvjoshi/auracount-api/issues"
+  },
+  "homepage": "https://github.com/kvjoshi/auracount-api#readme",
+  "dependencies": {
+    "@types/node": "^18.0.1",
+    "apollo-server-express": "^3.9.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "graphql": "^16.5.0",
+    "md5": "^2.3.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18",
+    "twilio": "^3.77.2"
+  }
+}
